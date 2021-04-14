@@ -4,7 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // сезон 1
         int month = 10;
         if (month <= 2 || month == 12) {
             System.out.println("Зима");
@@ -16,9 +15,6 @@ public class Main {
             System.out.println("Осень");
         }
         System.out.println();
-
-
-// Сезон 2
 
         switch (month) {
             case 12:
@@ -41,13 +37,11 @@ public class Main {
                 System.out.println("Осень");
                 break;
             default:
-                System.out.println("");
+                System.out.println("Не существует");
 
         }
         System.out.println();
 
-
-        // 1-мерный массив в обратном порядке
         int[] arr = new int[10];
         arr[0] = 1;
         arr[1] = 2;
@@ -65,7 +59,6 @@ public class Main {
         System.out.println();
         System.out.println();
 
-// 2-мерный массив в виде таблицы с индексами строки и столбца
         int[][] squareArray = new int[2][3];
         squareArray[0][0] = 1;
         squareArray[0][1] = 2;
